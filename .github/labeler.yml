@@ -1,0 +1,38 @@
+labels:
+  - label: "vscode"
+    files:
+      - ".vscode/.*"
+  - label: "github-workflows"
+    files:
+      - ".github/workflows/.*"
+  - label: "github"
+    files:
+      - ".github/.*"
+  - label: "gradle"
+    files:
+      - "gradle/.*"
+      - ".*.gradle"
+      - ".*.gradle.kts"
+      - "buildSrc/.*"
+      - "gradle.properties"
+      - "gradlew"
+  - label: "idea"
+    files:
+      - ".idea/.*"
+  - label: "git"
+    files:
+      - ".gitignore"
+      - ".gitattributes"
+  - label: "wiki"
+    files:
+      - "wiki/.*"
+      - "README.md"
+  - label: "test"
+    files:
+      - "app/src/test/java/gradle/test/.*"
+  - label: "main"
+    files:
+      - "app/src/main/java/gradle/test/.*"
+  - label: "module3"
+    files:
+      - "module3/.*"
